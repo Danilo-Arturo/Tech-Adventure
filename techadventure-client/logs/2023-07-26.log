@@ -1,0 +1,3 @@
+2023-07-26T17:41:45.911675 some error
+2023-07-26T17:42:56.069841 I/O error on POST request for "http://localhost:8080/register": Connection refused
+2023-07-26T17:47:22.736285 400 : "{"timestamp":"2023-07-26T21:47:22.652+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}"

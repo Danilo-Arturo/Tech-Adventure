@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "java",
+			"targetPath": "/Users/DaniloPivaral/Desktop/choose-adventure.jar",
+			"elements": [
+				"${compileOutput:alumni-capstone-client}",
+				"${dependencies:alumni-capstone-client}",
+				"${compileOutput:alumni-capstone-server}",
+				"${dependencies:alumni-capstone-server}"
+			],
+			"problemMatcher": [],
+			"label": "java: exportjar:choose-adventure",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
+//"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar"
