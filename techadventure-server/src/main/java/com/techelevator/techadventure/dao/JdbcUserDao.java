@@ -72,7 +72,7 @@ public class JdbcUserDao implements UserDao {
         }
 
         // create account
-        sql = "INSERT INTO account (user_id, balance) values(?, ?)";
+        sql = "INSERT INTO account(user_id, points) VALUES (?, ?)";
         try {
             jdbcTemplate.update(sql, newUserId, STARTING_BALANCE);
         } catch (DataAccessException e) {

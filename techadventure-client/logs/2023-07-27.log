@@ -1,0 +1,2 @@
+2023-07-27T17:36:24.817227 400 : "{"timestamp":"2023-07-27T21:36:24.710+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}"
+2023-07-27T17:58:56.487508 401 : [no body]
